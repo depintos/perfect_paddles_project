@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'karlabold';
+	src: url('karla-bold-webfont.woff') format('woff');
+	src: url('karla-bold-webfont.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'karlabolditalic';
+	src: url('karla-bolditalic-webfont.woff2') format('woff2');
+	src: url('karla-bolditalic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'karlaitalic';
+	src: url('karla-italic-webfont.woff2') format('woff2');
+	src: url('karla-italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'karlaregular';
+	src: url('karla-regular-webfont.eot');
+	src: url('karla-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('karla-regular-webfont.woff') format('woff'),
+		url('karla-regular-webfont.woff2') format('woff2'),
+		url('karla-regular-webfont.ttf') format('truetype')
+		url('karla-regular-webfont.svg#karlaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'pacificoregular';
+ 	
+ 	src: url('pacifico-webfont.woff2');
+ 	font-weight: normal;
+	font-style: normal;
+}
