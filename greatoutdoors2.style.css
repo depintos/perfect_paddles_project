@@ -137,7 +137,6 @@ section {
 
 .secondparagraph {
 	background-color: rgba(0, 0, 0, 0.5);
-	max-width: 589px;
 	padding: .5rem;
 	display: inline-block;
 	margin: 0 auto;
@@ -156,7 +155,6 @@ section {
 	margin: 0 auto;
 	color: white;
 	font-family: 'karla';
-
 }
 
 }
@@ -384,22 +382,47 @@ iframe {
 	flex-direction: row;
 }	
 
+.media-type {
+	display: none;
+}
+
+.media a {
+	color: white;
+	text-decoration: none;
+	padding-right: 0;
+}	
+
 @media (min-width: 600px) {
 
 .media {
 	display: flex;
 	flex-direction: column;
-}	
+	padding-right: 1rem;
+}
 
+.media-type {
+	color: white;
+	display: inline;
 }
 
 .media a {
 	color: white;
-	padding-right: 2rem;
-	text-decoration: none;
+	text-decoration: none;	
+}
+
+}
+
+@media (min-width: 1140px) {
+
+.media {
+	padding-right: 3rem;
+}
+
+	
 }
 
 .media li {
 	list-style: none;
 	color: white;
+	padding: 0 .5rem;
 }
